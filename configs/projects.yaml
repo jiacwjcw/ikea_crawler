@@ -1,0 +1,5 @@
+dynaconf_merge: true
+
+default:
+  urls:
+    - "https://www.ikea.com.tw/zh/products/luminaires/table-lamps/varmblixt-art-30525153"

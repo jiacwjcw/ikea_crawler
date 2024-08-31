@@ -1,0 +1,18 @@
+dynaconf_merge: true
+
+default:
+  debug: false
+  timeout: 10
+  implicit_wait: 1
+  driver:
+    chrome:
+      args:
+        - "--headless"
+        - "--start-maximized"
+        - "--no-sandbox"
+        - "--disable-gpu"
+        - "--disable-dev-shm-usage"
+        - "--disable-extensions"
+        - "--disable-infobars"
+        - "--disable-notifications"
+        - "--disable-popup-blocking"

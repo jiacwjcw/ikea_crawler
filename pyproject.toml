@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ikea-crawler"
+version = "0.1.0"
+description = ""
+authors = ["jiacw"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+selenium = "^4.24.0"
+dynaconf = "^3.2.6"
+webdriver-manager = "^4.0.2"
+python-telegram-bot = "^21.4"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
