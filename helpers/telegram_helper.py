@@ -14,5 +14,5 @@ def send(msg):
 
 
 if __name__ == "__main__":
-    text = """@yingchent 巴黎巴黎"""
+    text = """@<user> 巴黎巴黎"""
     send(text)
